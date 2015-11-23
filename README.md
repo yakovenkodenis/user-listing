@@ -1,3 +1,3 @@
 # User Listing
 
-Simple servlets/JSP two-role web app that works with PostgreSQL
+Simple servlets/JSP two-role bilingual web app that works with PostgreSQL
