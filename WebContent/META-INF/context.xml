@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/java_lab2" auth="Container"
+        type="javax.sql.DataSource" username="lab2" password="qwerty"
+        driverClassName="org.postgresql.Driver"
+        url="jdbc:postgresql://localhost:5432/java_lab2"
+        maxTotal="10" maxIdle="4" maxWaitMillis="-1" />
+    
+   <ResourceLink name="jdbc/java_lab2" global="jdbc/java_lab2" type="javax.sql.DataSource" />
+</Context>
