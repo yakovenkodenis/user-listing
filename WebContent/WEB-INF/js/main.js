@@ -1,5 +1,6 @@
-var login = document.getElementById('login');
-var signup = document.getElementById('signup');
+var login = document.getElementById('login'),
+    signup = document.getElementById('signup'),
+    authForms = document.getElementsByClassName('important');
 
 function hasClass(elem, klass) {
     return (" " + elem.className + " ").indexOf(" " + klass + " ") > -1;
@@ -30,7 +31,19 @@ function changeForm() {
 	}
 }
 
-window.onhashchange = changeForm;
+function changeHash() {
+	for(var i = 0; i < authForms.length; ++i) {
+		var form = authForms[i];
+		
+		if (form.value === 'signup' && form.getAttribute('data-attr') === 'true') {
+			location.hash = '#signup';
+			console.log('do-signup');
+		} else {
+			location.hash = '#login';
+			console.log('do-login');
+		}
+	}
+}
 
 var switches = document.getElementsByClassName('form-switch');
 [].forEach.call(switches, function(e) {
@@ -46,4 +59,8 @@ var switches = document.getElementsByClassName('form-switch');
 		e.style.color = '#e74c3c';
 	});
 });
+
+window.onhashchange = changeForm;
+
+window.onload = changeHash;
 

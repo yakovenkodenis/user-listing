@@ -37,7 +37,7 @@
 			<label for="password"><fmt:message key="login.label.password"/></label>
 			<input type="password" placeholder="•••••••••••" name="password" />
 			<input type="text" name="language" class="hidden" value="${language}" />
-			<input type="text" name="ACTION" class="hidden" value="login"/>
+			<input type="text" name="ACTION" class="hidden important" value="login" data-attr="${errorLoginMessage != null ? true : false}"/>
 			<fmt:message key="login.input.submit" var="loginValue"/>
 			<input type="submit" value="${loginValue}" />
 		</form>
@@ -57,7 +57,7 @@
 			<label for="password"><fmt:message key="signup.label.password"/></label>
 			<input type="password" name="password" />
 			<input type="text" name="language" class="hidden" value="${language}" />
-			<input type="text" name="ACTION" class="hidden" value="signup"/>
+			<input type="text" name="ACTION" class="hidden  important" value="signup" data-attr="${errorSignupMessage != null ? true : false}"/>
 			<fmt:message key="signup.input.submit" var="signupValue"/>
 			<input type="submit" value="${signupValue}" />
 		</form>
