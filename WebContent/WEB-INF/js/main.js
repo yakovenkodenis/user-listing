@@ -8,9 +8,9 @@ function hasClass(elem, klass) {
 
 function changeForm() {
 	if ('onhashchange' in window) {
-		if (location.hash === '#login') {
+		if (location.hash === '#login' || location.hash === '') {
 			if (!hasClass(signup, 'hidden')) {
-				signup.className = signup.className += 'hidden';
+				signup.className = signup.className += ' hidden';
 				
 				if(hasClass(login, 'hidden')) {
 					login.className = login.className.replace(/\hidden\b/, '');
@@ -20,7 +20,7 @@ function changeForm() {
 		}
 		if(location.hash === '#signup') {
 			if (!hasClass(login, 'hidden')) {
-				login.className = login.className += 'hidden';
+				login.className = login.className += ' hidden';
 				
 				if(hasClass(signup, 'hidden')) {
 					signup.className = signup.className.replace(/\hidden\b/, '');
