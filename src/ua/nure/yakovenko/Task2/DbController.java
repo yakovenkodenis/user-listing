@@ -57,7 +57,7 @@ public final class DbController {
 						u = new User(res.getString("id"), res.getString("name"), res.getString("email"),
 								 res.getString("login"), res.getString("password"), res.getString("role"));
 						
-						System.out.println("SGSADUSER:\n" + u.toString());
+						System.out.println("USER INFO:\n" + u.toString());
 					}
 				} catch (PSQLException e) {
 					u = new User(null, null, null, null, null, null);
@@ -117,7 +117,6 @@ public final class DbController {
 			else if (!u.password.trim().equals(encryptedPassword)){
 				return bundle.getString("validation.wrong_pass_or_email");
 			} else {
-				System.out.println(encryptedPassword.length());
 				System.out.println("VALID USER!");
 				return null;
 			}

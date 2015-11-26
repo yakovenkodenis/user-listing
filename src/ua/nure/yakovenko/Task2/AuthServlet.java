@@ -37,37 +37,43 @@ public class AuthServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		String action = request.getParameter("ACTION");
+		System.out.println("ACTION:\t" + action);
+		
+		String lang = request.getParameter("language");
+		
+	    Locale locale = new Locale(lang);
+	    ResourceBundle bundle = ResourceBundle.getBundle("ua.nure.yakovenko.Task2.i18n.text", locale);
 		
 		if ("login".equals(action)) {
+			System.out.println("AUTHENTICATION: LOGIN");
+			
 			String email = request.getParameter("email");
-//			String password = Security.generateSHA256(request.getParameter("password"));
 			String password = request.getParameter("password");
-			
-			String lang = request.getParameter("language");
-			
-		    Locale locale = new Locale(lang);
-		    ResourceBundle bundle = ResourceBundle.getBundle("ua.nure.yakovenko.Task2.i18n.text", locale);
 
 		    User u = new User(null, null, email, null, password, null);
 		    
 		    ArrayList<String> result = new ArrayList<String>();
 		    result.addAll(db.validateUserLogin(u,  bundle));
 			
-		    if(result.get(0) == "ok") {
+		    // If all fields pass the validation - check user in DB  
+		    if(result.size() > 0 && result.get(0) == "ok") {
 		    	result.remove(0);
-		    }
-		    
-		    System.out.println("ENTERED PASS:\n" + Security.generateSHA256(password));
-		    
-		    String userExists = db.validateUserExistsInDB(email, Security.generateSHA256(password), bundle);
-		    System.out.println(userExists);
-		    if (userExists != null) {
-		    	result.add(userExists);
+		    	
+		    	String enctyptedPassword = Security.generateSHA256(password);
+ 
+			    System.out.println("ENTERED PASS:\n" + password);
+			    System.out.println("ENTERED ENCRYPTED PASS:\n" + enctyptedPassword);
+			    
+			    String userExists = db.validateUserExistsInDB(email, enctyptedPassword, bundle);
+			    System.out.println(userExists);
+			    if (userExists != null) {
+			    	result.add(userExists);
+			    }
 		    }
 			
-		    System.out.println(result);
+		    System.out.println("VALIDATION ERRORS:\n" + result);
 		    
-			if (result.size() > 0 && result.get(0) != "ok") {
+			if (result.size() > 0) {
 				request.setAttribute("errorLoginMessage", result);
 				request.setAttribute("email", email);
 				doGet(request, response);
@@ -75,21 +81,29 @@ public class AuthServlet extends HttpServlet {
 				System.out.println("Validation OK");
 			}
 		} else if ("signup".equals(action)) {
+			System.out.println("AUTHENTICATION: SIGNUP");
+			
 			String email = request.getParameter("email");
 			String password = request.getParameter("password");
 			String name = request.getParameter("name");
 			String login = request.getParameter("login");
-			
-			String lang = request.getParameter("language");
-			
-		    Locale locale = new Locale(lang);
-		    ResourceBundle bundle = ResourceBundle.getBundle("ua.nure.yakovenko.Task2.i18n.text", locale);
-
+		    
 		    User u = new User(null, name, email, login, password, null);
 		    
 			ArrayList<String> result = db.validateUserSignup(u, bundle);
 			
-			if (result.size() > 0 && result.get(0) != "ok") {
+			 // If all fields pass the validation - check user in DB  
+			if (result.size() > 0 && result.get(0) == "ok") {
+				result.remove(0);
+				String userExists = db.validateUserExistsInDB(email, Security.generateSHA256(password), bundle);
+				if (userExists != null) {
+					result.add(userExists);
+				}
+			}
+			
+			System.out.println("VALIDATION ERRORS:\n" + result);
+			
+			if (result.size() > 0) {
 				request.setAttribute("errorSignupMessage", result);
 				request.setAttribute("email", email);
 				request.setAttribute("name", name);
@@ -101,6 +115,7 @@ public class AuthServlet extends HttpServlet {
 			
 			
 		} else {
+			System.out.println("UNKNOWN POST REQUEST FROM AUTH PAGE");
 			doGet(request, response);
 		}
 	}

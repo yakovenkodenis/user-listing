@@ -41,6 +41,7 @@ public final class Validator {
 			messages.addAll(existence);
 		}
 		
+		// If all the submitted fields are empty
 		if ((messages.size() == 2 && isLogin) || (messages.size() == 4 && !isLogin)) {
 			return messages;
 		}
