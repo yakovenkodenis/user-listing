@@ -98,6 +98,7 @@ public class AuthServlet extends HttpServlet {
 				String encryptedPassword = Security.generateSHA256(password);
 				String userExists = db.validateUserExistsInDB(email, encryptedPassword, bundle, true);
 				if (userExists != null) {
+					System.out.println(userExists);
 					result.add(userExists);
 				}
 			}

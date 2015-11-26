@@ -112,17 +112,17 @@ public final class DbController {
 			ResourceBundle bundle, boolean isSignup) {
 		try {
 			User u = getUserByEmail(email);
-			if (isSignup && null != u.email) {
-				return bundle.getString("validation.user_already_exists");
-			} else {
-				if (null == u.name || u.name == "") {
+			if (!isSignup) {
+				if (u.getName() == null) {
 					return bundle.getString("validation.no_user_in_db");
 				}
-				else if (!u.password.trim().equals(encryptedPassword)){
+				else if (!u.getPassword().trim().equals(encryptedPassword)){
 					return bundle.getString("validation.wrong_pass_or_email");
-				} else {
-					System.out.println("VALID USER!");
-					return null;
+				} else return null;
+			} else {
+				System.out.println("EMAIL: " + u.getEmail());
+				if (u.getEmail() != null) {
+					return bundle.getString("validation.user_already_exists");
 				}
 			}
 		} catch(SQLException e) {
