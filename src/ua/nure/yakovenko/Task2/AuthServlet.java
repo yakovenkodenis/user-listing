@@ -1,6 +1,7 @@
 package ua.nure.yakovenko.Task2;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -112,6 +113,13 @@ public class AuthServlet extends HttpServlet {
 				request.setAttribute("login", login);
 				doGet(request, response);
 			} else {
+				try {
+					db.createNewUser(name, login, email, password);
+					request.setAttribute("email", email);
+					doGet(request, response);
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
 				System.out.println("Validation OK");
 			}
 			
