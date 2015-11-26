@@ -49,11 +49,11 @@
 				<div class="error-message">${message}</div>
 			</c:forEach>
 			<label for="name"><fmt:message key="signup.label.name"/></label>
-			<input type="text" name="name" />
+			<input type="text" name="name" value="${name}" />
 			<label for="login"><fmt:message key="signup.label.login"/></label>
-			<input type="text" name="login" />
+			<input type="text" name="login" value="${login}" />
 			<label for="email"><fmt:message key="signup.label.email"/></label>
-			<input type="text" name="email" />
+			<input type="text" name="email" value="${email}" />
 			<label for="password"><fmt:message key="signup.label.password"/></label>
 			<input type="password" name="password" />
 			<input type="text" name="language" class="hidden" value="${language}" />

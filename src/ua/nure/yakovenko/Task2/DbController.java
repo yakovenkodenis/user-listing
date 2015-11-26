@@ -108,17 +108,22 @@ public final class DbController {
 		}
 	}
 	
-	public String validateUserExistsInDB(String email, String encryptedPassword, ResourceBundle bundle) {
+	public String validateUserExistsInDB(String email, String encryptedPassword,
+			ResourceBundle bundle, boolean isSignup) {
 		try {
 			User u = getUserByEmail(email);
-			if (null == u.name || u.name == "") {
-				return bundle.getString("validation.no_user_in_db");
-			}
-			else if (!u.password.trim().equals(encryptedPassword)){
-				return bundle.getString("validation.wrong_pass_or_email");
+			if (isSignup && null != u.email) {
+				return bundle.getString("validation.user_already_exists");
 			} else {
-				System.out.println("VALID USER!");
-				return null;
+				if (null == u.name || u.name == "") {
+					return bundle.getString("validation.no_user_in_db");
+				}
+				else if (!u.password.trim().equals(encryptedPassword)){
+					return bundle.getString("validation.wrong_pass_or_email");
+				} else {
+					System.out.println("VALID USER!");
+					return null;
+				}
 			}
 		} catch(SQLException e) {
 			e.printStackTrace();

@@ -64,7 +64,7 @@ public class AuthServlet extends HttpServlet {
 			    System.out.println("ENTERED PASS:\n" + password);
 			    System.out.println("ENTERED ENCRYPTED PASS:\n" + enctyptedPassword);
 			    
-			    String userExists = db.validateUserExistsInDB(email, enctyptedPassword, bundle);
+			    String userExists = db.validateUserExistsInDB(email, enctyptedPassword, bundle, false);
 			    System.out.println(userExists);
 			    if (userExists != null) {
 			    	result.add(userExists);
@@ -95,7 +95,8 @@ public class AuthServlet extends HttpServlet {
 			 // If all fields pass the validation - check user in DB  
 			if (result.size() > 0 && result.get(0) == "ok") {
 				result.remove(0);
-				String userExists = db.validateUserExistsInDB(email, Security.generateSHA256(password), bundle);
+				String encryptedPassword = Security.generateSHA256(password);
+				String userExists = db.validateUserExistsInDB(email, encryptedPassword, bundle, true);
 				if (userExists != null) {
 					result.add(userExists);
 				}
