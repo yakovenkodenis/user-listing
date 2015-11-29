@@ -36,6 +36,7 @@
 	<br>
 
 	<c:set var="role" value="<%= session.getAttribute(\"role\") %>" scope="session" />
+	<c:set var="currentUserEmail" value="<%= session.getAttribute(\"email\")%>" scope="session"/>
 	
 	<c:choose>
 		<c:when test="${sessionScope.role == 'admin'}">
@@ -45,17 +46,30 @@
 					<span class="user-name">${user.name}</span>
 					<span class="user-login">${user.login}</span>
 					<span class="user-role">${user.role}</span>
-					<a href="/">delete</a>
+					<c:choose>
+						<c:when test="${sessionScope.currentUserEmail != user.email}">
+							<form action="/Task2/" method="post" class="delete-form">
+								<fmt:message key="users.delete" var="delete" />
+								<input type="submit" name="delete-${user.id}" value="${delete}" />
+							</form>
+						</c:when>
+						<c:otherwise>
+							<span class="current-user-indication">(<fmt:message key="current_user.this_is_you" />)</span>
+						</c:otherwise>
+					</c:choose>
 				</div>
 			</c:forEach>
 		</c:when>
 		<c:otherwise>
 			<c:forEach items="${users}" var="user" varStatus="loop">
 				<div class="user">
-					<span class="user-id">${loop.index}</span>
+					<span class="user-id">${loop.index + 1}</span>
 					<span class="user-name">${user.name}</span>
 					<span class="user-login">${user.login}</span>
 					<span class="user-role">${user.role}</span>
+					<c:if test="${sessionScope.currentUserEmail == user.email}">
+						<span class="current-user-indication">(<fmt:message key="current_user.this_is_you" />)</span>
+					</c:if>
 				</div>
 			</c:forEach>
 		</c:otherwise>

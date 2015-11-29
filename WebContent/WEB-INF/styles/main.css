@@ -211,3 +211,24 @@ h1 .disable-link {
 .language-select #language {
 	margin-right: 10em;
 }
+
+.delete-form {
+	display: inline;
+	border: none
+}
+
+.delete-form input,
+.delete-form input:hover,
+.delete-form input:active {
+	color: #c0392b;
+	background: initial;
+	text-decoration: none;
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.delete-form input:hover {
+	color: #e74c3c;
+}
+

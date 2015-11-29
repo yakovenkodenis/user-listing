@@ -30,7 +30,7 @@ public class AuthenticationFilter implements Filter {
 			HttpSession session = req.getSession(false);
 			User u = null;
 			if (session != null) {
-				u = (User)session.getAttribute("user");
+				u = (User) session.getAttribute("user");
 			}
 			if (u == null) {
 				res.sendRedirect("authentication");

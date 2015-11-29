@@ -15,67 +15,73 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
 
 @WebServlet("/authentication")
 public class AuthServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-	DbController db;
-	
-    public AuthServlet() {
-        super();
-        try {
-        	db = new DbController(new InitialContext());
-        } catch (NamingException e) {
-        	e.printStackTrace();
-        }
-    }
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	private Logger Log = Logger.getLogger("Task2logger");
+
+	DbController db;
+
+	public AuthServlet() {
+		super();
+		try {
+			db = new DbController(new InitialContext());
+		} catch (NamingException e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Log.debug("GET REQUEST AuthServlet");
 		request.getRequestDispatcher("/WEB-INF/auth.jsp").forward(request, response);
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
 		String action = request.getParameter("ACTION");
 		System.out.println("ACTION:\t" + action);
-		
+
 		String lang = request.getParameter("language");
-		
-	    Locale locale = new Locale(lang);
-	    ResourceBundle bundle = ResourceBundle.getBundle("ua.nure.yakovenko.Task2.i18n.text", locale);
-	    
-	    ArrayList<User> users = new ArrayList<>();
-		
+
+		Locale locale = new Locale(lang);
+		ResourceBundle bundle = ResourceBundle.getBundle("ua.nure.yakovenko.Task2.i18n.text", locale);
+
+		ArrayList<User> users = new ArrayList<>();
+
 		if ("login".equals(action)) {
 			System.out.println("AUTHENTICATION: LOGIN");
-			
+
 			String email = request.getParameter("email");
 			String password = request.getParameter("password");
 
-		    User u = new User(null, null, email, null, password, null);
-		    
-		    ArrayList<String> result = new ArrayList<String>();
-		    result.addAll(db.validateUserLogin(u,  bundle));
-			
-		    // If all fields pass the validation - check user in DB  
-		    if(result.size() > 0 && result.get(0) == "ok") {
-		    	result.remove(0);
-		    	
-		    	String enctyptedPassword = Security.generateSHA256(password);
- 
-			    System.out.println("ENTERED PASS:\n" + password);
-			    System.out.println("ENTERED ENCRYPTED PASS:\n" + enctyptedPassword);
-			    
-			    String userExists = db.validateUserExistsInDB(email, enctyptedPassword, bundle, false);
-			    System.out.println(userExists);
-			    if (userExists != null) {
-			    	result.add(userExists);
-			    }
-		    }
-			
-		    System.out.println("VALIDATION ERRORS:\n" + result);
-		    
+			User u = new User(null, null, email, null, password, null);
+
+			ArrayList<String> result = new ArrayList<String>();
+			result.addAll(db.validateUserLogin(u, bundle));
+
+			// If all fields pass the validation - check user in DB
+			if (result.size() > 0 && result.get(0) == "ok") {
+				result.remove(0);
+
+				String enctyptedPassword = Security.generateSHA256(password);
+
+				System.out.println("ENTERED PASS:\n" + password);
+				System.out.println("ENTERED ENCRYPTED PASS:\n" + enctyptedPassword);
+
+				String userExists = db.validateUserExistsInDB(email, enctyptedPassword, bundle, false);
+				System.out.println(userExists);
+				if (userExists != null) {
+					result.add(userExists);
+				}
+			}
+
+			System.out.println("VALIDATION ERRORS:\n" + result);
+
 			if (result.size() > 0) {
 				request.setAttribute("errorLoginMessage", result);
 				request.setAttribute("email", email);
@@ -90,6 +96,7 @@ public class AuthServlet extends HttpServlet {
 				}
 				session.setAttribute("user", u);
 				session.setAttribute("role", u.getRole());
+				session.setAttribute("email", u.getEmail());
 				session.setAttribute("users", users);
 				System.out.println("AUTH_SERVLET\n");
 				System.out.println(request.getSession().getAttribute("user"));
@@ -98,17 +105,17 @@ public class AuthServlet extends HttpServlet {
 			}
 		} else if ("signup".equals(action)) {
 			System.out.println("AUTHENTICATION: SIGNUP");
-			
+
 			String email = request.getParameter("email");
 			String password = request.getParameter("password");
 			String name = request.getParameter("name");
 			String login = request.getParameter("login");
-		    
-		    User u = new User(null, name, email, login, password, "user");
-		    
+
+			User u = new User(null, name, email, login, password, "user");
+
 			ArrayList<String> result = db.validateUserSignup(u, bundle);
-			
-			 // If all fields pass the validation - check user in DB  
+
+			// If all fields pass the validation - check user in DB
 			if (result.size() > 0 && result.get(0) == "ok") {
 				result.remove(0);
 				String encryptedPassword = Security.generateSHA256(password);
@@ -118,9 +125,9 @@ public class AuthServlet extends HttpServlet {
 					result.add(userExists);
 				}
 			}
-			
+
 			System.out.println("VALIDATION ERRORS:\n" + result);
-			
+
 			if (result.size() > 0) {
 				request.setAttribute("errorSignupMessage", result);
 				request.setAttribute("email", email);
@@ -129,14 +136,17 @@ public class AuthServlet extends HttpServlet {
 				doGet(request, response);
 			} else {
 				db.createNewUser(u);
+				users = db.getUsersList();
 				HttpSession session = request.getSession();
 				session.setAttribute("user", u);
 				session.setAttribute("role", u.getRole());
+				session.setAttribute("email", u.getEmail());
+				session.setAttribute("users", users);
 				System.out.println("AUTH_SERVLET\n");
 				response.sendRedirect(request.getContextPath() + "/");
 				System.out.println("Validation OK");
 			}
-			
+
 		} else {
 			System.out.println("UNKNOWN POST REQUEST FROM AUTH PAGE");
 			doGet(request, response);
