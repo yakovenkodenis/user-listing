@@ -31,19 +31,10 @@ public class DeleteUser extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 
 		String[] urlParts = request.getRequestURI().split("/");
-		if (urlParts.length != 4) {
-			response.sendRedirect("/Task2/");
-		} else {
 
-			User u = (User) request.getSession().getAttribute("user");
-			if (u.getId() == urlParts[3]) {
-				response.sendRedirect("/Task2/");
-			} else {
-				request.setAttribute("deleteID", urlParts[3]);
-				request.setAttribute("deleteUser", db.getUserByID(urlParts[3]));
-				request.getRequestDispatcher("/WEB-INF/delete.jsp").forward(request, response);
-			}
-		}
+		request.setAttribute("deleteID", urlParts[3]);
+		request.setAttribute("deleteUser", db.getUserByID(urlParts[3]));
+		request.getRequestDispatcher("/WEB-INF/delete.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

@@ -12,8 +12,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebFilter(filterName="AuthenticationFilter")
-public class AuthenticationFilter implements Filter {
+@WebFilter(filterName = "AdminFilter")
+public class AdminFilter implements Filter {
+
+	public void destroy() {
+	}
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
@@ -21,7 +24,7 @@ public class AuthenticationFilter implements Filter {
 		HttpServletResponse res = (HttpServletResponse) response;
 		String path = req.getRequestURI();
 
-		System.out.println("FILTER PATH\n" + path);
+		System.out.println("ADMIN FILTER PATH\n" + path);
 
 		HttpSession session = req.getSession(false);
 		User u = null;
@@ -29,26 +32,18 @@ public class AuthenticationFilter implements Filter {
 			u = (User) session.getAttribute("user");
 		}
 
-		if (path.contains("/authentication")) {
-			if (u != null) {
-				res.sendRedirect("/Task2/");
-			} else {
+		if (u != null) {
+			if (u.getRole().equals("admin")) {
 				chain.doFilter(request, response);
+			} else {
+				res.sendRedirect("/Task2/");
 			}
 		} else {
-			if (u == null) {
-				res.sendRedirect("authentication");
-			} else {
-				chain.doFilter(request, response);
-			}
+			res.sendRedirect("authentication");
 		}
 	}
 
-	@Override
-	public void destroy() {
+	public void init(FilterConfig fConfig) throws ServletException {
 	}
 
-	@Override
-	public void init(FilterConfig arg0) throws ServletException {
-	}
 }
