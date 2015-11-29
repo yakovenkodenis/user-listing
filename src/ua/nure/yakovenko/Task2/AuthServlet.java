@@ -1,6 +1,7 @@
 package ua.nure.yakovenko.Task2;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -43,6 +44,8 @@ public class AuthServlet extends HttpServlet {
 		
 	    Locale locale = new Locale(lang);
 	    ResourceBundle bundle = ResourceBundle.getBundle("ua.nure.yakovenko.Task2.i18n.text", locale);
+	    
+	    ArrayList<User> users = new ArrayList<>();
 		
 		if ("login".equals(action)) {
 			System.out.println("AUTHENTICATION: LOGIN");
@@ -79,7 +82,15 @@ public class AuthServlet extends HttpServlet {
 				doGet(request, response);
 			} else {
 				HttpSession session = request.getSession();
+				try {
+					u = db.getUserByEmail(email);
+					users = db.getUsersList();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
 				session.setAttribute("user", u);
+				session.setAttribute("role", u.getRole());
+				session.setAttribute("users", users);
 				System.out.println("AUTH_SERVLET\n");
 				System.out.println(request.getSession().getAttribute("user"));
 				response.sendRedirect(request.getContextPath() + "/");
@@ -93,7 +104,7 @@ public class AuthServlet extends HttpServlet {
 			String name = request.getParameter("name");
 			String login = request.getParameter("login");
 		    
-		    User u = new User(null, name, email, login, password, null);
+		    User u = new User(null, name, email, login, password, "user");
 		    
 			ArrayList<String> result = db.validateUserSignup(u, bundle);
 			
@@ -120,6 +131,7 @@ public class AuthServlet extends HttpServlet {
 				db.createNewUser(u);
 				HttpSession session = request.getSession();
 				session.setAttribute("user", u);
+				session.setAttribute("role", u.getRole());
 				System.out.println("AUTH_SERVLET\n");
 				response.sendRedirect(request.getContextPath() + "/");
 				System.out.println("Validation OK");

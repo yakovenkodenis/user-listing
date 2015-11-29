@@ -33,7 +33,6 @@ public class AuthenticationFilter implements Filter {
 				u = (User)session.getAttribute("user");
 			}
 			if (u == null) {
-//				req.getRequestDispatcher("authentication").forward(req, res);
 				res.sendRedirect("authentication");
 			} else {
 				chain.doFilter(request, response);

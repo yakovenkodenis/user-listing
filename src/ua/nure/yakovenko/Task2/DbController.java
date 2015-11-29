@@ -85,6 +85,36 @@ public final class DbController {
 		}
 	}
 	
+	public ArrayList<User> getUsersList() {
+		ArrayList<User> users = new ArrayList<>();
+		
+		Connection conn = null;
+		PreparedStatement pstmt;
+		
+		try {
+			conn = ds.getConnection();
+			conn.setAutoCommit(false);
+			pstmt = conn.prepareStatement("SELECT * FROM USERS;");
+			ResultSet res = null;
+			
+			if (pstmt.execute()) {
+				res = pstmt.getResultSet();
+				
+				if (res != null) {
+					
+					while(res.next()) {
+						users.add(new User(res.getString("id"), res.getString("name"), res.getString("email"),
+								 res.getString("login"), res.getString("password"), res.getString("role")));
+					}
+				}
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return users;
+	}
+	
 	public void createNewUser(String name, String login, String email, String password) throws SQLException {
 		Connection conn = null;
 		PreparedStatement pstmt;

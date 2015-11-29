@@ -198,3 +198,16 @@ h1 .disable-link {
 .error-message:last-of-type {
 	margin-bottom: 2%;
 }
+
+.logout, .language-select {
+	display: inline;
+}
+
+.logout {
+	float: right;
+	margin-top: -5.2em;
+}
+
+.language-select #language {
+	margin-right: 10em;
+}

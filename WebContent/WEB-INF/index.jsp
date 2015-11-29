@@ -16,19 +16,49 @@
 </head>
 <body>
 	<h1 class="text-center"><a href="/Task2" class="disable-link">User listing</a></h1>
-	<form>
-		<select id="language" name="language" onchange="submit()">
-			<option value="en" ${language == 'en' ? 'selected' : ''}><fmt:message key="lang.english" /></option>
-			<option value="ru" ${language == 'ru' ? 'selected' : ''}><fmt:message key="lang.russian" /></option>
-		</select>
-	</form>
+	
+	<nav id="top-nav">
+	
+		<form method="post" action="/Task2/" class="logout">
+			<fmt:message key="authentication.logout" var="logout" />
+			<input type="submit" name="logout" value="${logout}" />
+		</form>
+		
+		<form class="language-select">
+			<select id="language" name="language" onchange="submit()">
+				<option value="ru" ${language == 'ru' ? 'selected' : ''}><fmt:message key="lang.russian" /></option>
+				<option value="en" ${language == 'en' ? 'selected' : ''}><fmt:message key="lang.english" /></option>
+			</select>
+		</form>
+	</nav>
+
+	<h5><fmt:message key="index.greeting.hello" />, ${user.login}! <fmt:message key="index.greeting.your_role" /> ${user.role}</h5>
 	<br>
 
-	<form method="post" action="/Task2/">
-		<fmt:message key="authentication.logout" var="logout" />
-		<input type="submit" name="logout" value="${logout}" />
-	</form>
-
-	<h2><fmt:message key="test.welcome"/></h2>
+	<c:set var="role" value="<%= session.getAttribute(\"role\") %>" scope="session" />
+	
+	<c:choose>
+		<c:when test="${sessionScope.role == 'admin'}">
+			<c:forEach items="${users}" var="user" varStatus="loop">
+				<div class="user">
+					<span class="user-id">${loop.index + 1}</span>
+					<span class="user-name">${user.name}</span>
+					<span class="user-login">${user.login}</span>
+					<span class="user-role">${user.role}</span>
+					<a href="/">delete</a>
+				</div>
+			</c:forEach>
+		</c:when>
+		<c:otherwise>
+			<c:forEach items="${users}" var="user" varStatus="loop">
+				<div class="user">
+					<span class="user-id">${loop.index}</span>
+					<span class="user-name">${user.name}</span>
+					<span class="user-login">${user.login}</span>
+					<span class="user-role">${user.role}</span>
+				</div>
+			</c:forEach>
+		</c:otherwise>
+	</c:choose>
 </body>
 </html>
