@@ -31,6 +31,58 @@ public final class DbController {
 		}
 	}
 
+	public User getUserByID(String id) {
+		User u = null;
+		Connection conn = null;
+		PreparedStatement pstmt;
+
+		try {
+			conn = ds.getConnection();
+			conn.setAutoCommit(false);
+			pstmt = conn.prepareStatement("SELECT * FROM users WHERE id = ? LIMIT 1;");
+			pstmt.setInt(1, Integer.parseInt(id));
+
+			System.out.println(pstmt.toString());
+
+			ResultSet res = null;
+
+			if (pstmt.execute()) {
+				res = pstmt.getResultSet();
+				res.next();
+
+				System.out.println("RESULT: " + (res == null));
+
+				try {
+					if (res != null) {
+						u = new User(res.getString("id"), res.getString("name"), res.getString("email"),
+								res.getString("login"), res.getString("password"), res.getString("role"));
+
+						System.out.println("USER INFO:\n" + u.toString());
+					}
+				} catch (PSQLException e) {
+					u = new User(null, null, null, null, null, null);
+				}
+			}
+
+			conn.commit();
+			pstmt.close();
+
+			System.out.println("GET USER By ID: SUCCESS");
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return u;
+	}
+
 	public User getUserByEmail(String email) throws SQLException {
 		User u = null;
 		Connection conn = null;

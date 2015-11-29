@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
 public class AuthServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	DbController db;
+	private DbController db;
 
 	public AuthServlet() {
 		super();
