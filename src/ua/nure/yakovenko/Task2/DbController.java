@@ -1,7 +1,5 @@
 package ua.nure.yakovenko.Task2;
 
-import java.nio.ByteBuffer;
-import java.nio.charset.Charset;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -157,19 +155,6 @@ public final class DbController {
 	public void createNewUser(String name, String login, String email, String password) throws SQLException {
 		Connection conn = null;
 		PreparedStatement pstmt;
-		
-		// ByteBuffer bytesName = Charset.forName("UTF-8").encode(name);
-		// name = new String(bytesName.array(), Charset.forName("UTF-8"));
-		//
-		// ByteBuffer bytesLogin = Charset.forName("UTF-8").encode(login);
-		// login = new String(bytesLogin.array(), Charset.forName("UTF-8"));
-		//
-		// ByteBuffer bytesEmail = Charset.forName("UTF-8").encode(email);
-		// email = new String(bytesEmail.array(), Charset.forName("UTF-8"));
-		//
-		// ByteBuffer bytesPassword = Charset.forName("UTF-8").encode(password);
-		// password = new String(bytesPassword.array(),
-		// Charset.forName("UTF-8"));
 
 		try {
 			conn = ds.getConnection();

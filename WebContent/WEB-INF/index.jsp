@@ -43,16 +43,13 @@
 		<c:when test="${sessionScope.role == 'admin'}">
 			<c:forEach items="${users}" var="user" varStatus="loop">
 				<div class="user">
-					<span class="user-id">${loop.index + 1}</span>
+					<span class="user-id">${loop.index + 1}.</span>
 					<span class="user-name">${user.name}</span>
 					<span class="user-login">${user.login}</span>
 					<span class="user-role">${user.role}</span>
 					<c:choose>
 						<c:when test="${sessionScope.currentUserEmail != user.email}">
-							<form action="/Task2/" method="post" class="delete-form">
-								<fmt:message key="users.delete" var="delete" />
-								<input type="submit" name="delete-${user.id}" value="${delete}" />
-							</form>
+							<a href="${pageContext.request.contextPath}/delete/${user.id}"><fmt:message key="users.delete" /></a>
 						</c:when>
 						<c:otherwise>
 							<span class="current-user-indication">(<fmt:message key="current_user.this_is_you" />)</span>
@@ -64,7 +61,7 @@
 		<c:otherwise>
 			<c:forEach items="${users}" var="user" varStatus="loop">
 				<div class="user">
-					<span class="user-id">${loop.index + 1}</span>
+					<span class="user-id">${loop.index + 1}.</span>
 					<span class="user-name">${user.name}</span>
 					<span class="user-login">${user.login}</span>
 					<span class="user-role">${user.role}</span>

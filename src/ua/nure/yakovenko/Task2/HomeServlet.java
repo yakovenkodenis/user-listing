@@ -1,7 +1,6 @@
 package ua.nure.yakovenko.Task2;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Enumeration;
 
 import javax.naming.InitialContext;

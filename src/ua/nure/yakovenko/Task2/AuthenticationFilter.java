@@ -12,26 +12,30 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-
 @WebFilter(description = "The filter for checking if the current user is authenticated.", urlPatterns = { "/*" })
 public class AuthenticationFilter implements Filter {
 
-	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-		HttpServletRequest req = (HttpServletRequest)request;
-		HttpServletResponse res = (HttpServletResponse)response;
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException {
+		HttpServletRequest req = (HttpServletRequest) request;
+		HttpServletResponse res = (HttpServletResponse) response;
 		String path = req.getRequestURI();
-		
+
 		System.out.println("FILTER PATH\n" + path);
-		
+
+		HttpSession session = req.getSession(false);
+		User u = null;
+		if (session != null) {
+			u = (User) session.getAttribute("user");
+		}
+
 		if (path.contains("/authentication")) {
-			System.out.println("DO NOT FILTER");
-			chain.doFilter(request, response);
-		} else {
-			HttpSession session = req.getSession(false);
-			User u = null;
-			if (session != null) {
-				u = (User) session.getAttribute("user");
+			if (u != null) {
+				res.sendRedirect("/Task2/");
+			} else {
+				chain.doFilter(request, response);
 			}
+		} else {
 			if (u == null) {
 				res.sendRedirect("authentication");
 			} else {
