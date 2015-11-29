@@ -77,6 +77,14 @@ public final class DbController {
 		return u;
 	}
 	
+	public void createNewUser(User u) {
+		try {
+			createNewUser(u.name, u.login, u.email, u.password);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	public void createNewUser(String name, String login, String email, String password) throws SQLException {
 		Connection conn = null;
 		PreparedStatement pstmt;

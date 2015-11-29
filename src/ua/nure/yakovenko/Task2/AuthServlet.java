@@ -82,7 +82,6 @@ public class AuthServlet extends HttpServlet {
 				session.setAttribute("user", u);
 				System.out.println("AUTH_SERVLET\n");
 				System.out.println(request.getSession().getAttribute("user"));
-//				request.getRequestDispatcher("/").forward(request, response);
 				response.sendRedirect(request.getContextPath() + "/");
 				System.out.println("Validation OK");
 			}
@@ -118,6 +117,7 @@ public class AuthServlet extends HttpServlet {
 				request.setAttribute("login", login);
 				doGet(request, response);
 			} else {
+				db.createNewUser(u);
 				HttpSession session = request.getSession();
 				session.setAttribute("user", u);
 				System.out.println("AUTH_SERVLET\n");
