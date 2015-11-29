@@ -18,8 +18,8 @@
 	<h1 class="text-center"><a href="/Task2" class="disable-link">User listing</a></h1>
 	<form>
 		<select id="language" name="language" onchange="submit()">
-			<option value="ru" ${language == 'ru' ? 'selected' : ''}><fmt:message key="lang.russian" /></option>
 			<option value="en" ${language == 'en' ? 'selected' : ''}><fmt:message key="lang.english" /></option>
+			<option value="ru" ${language == 'ru' ? 'selected' : ''}><fmt:message key="lang.russian" /></option>
 		</select>
 	</form>
 	<br>
@@ -48,8 +48,8 @@
 			<c:forEach items="${errorSignupMessage}" var="message">
 				<div class="error-message">${message}</div>
 			</c:forEach>
-			<label for="name"><fmt:message key="signup.label.name"/></label>
-			<input type="text" name="name" value="${name}" />
+			<label for="name"><fmt:message key="signup.label.name" /></label>
+			<input type="text" name="name" value="${name}" autocomplete="name" />
 			<label for="login"><fmt:message key="signup.label.login"/></label>
 			<input type="text" name="login" value="${login}" />
 			<label for="email"><fmt:message key="signup.label.email"/></label>

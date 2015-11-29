@@ -1,7 +1,6 @@
 package ua.nure.yakovenko.Task2;
 
 import java.io.IOException;
-import java.sql.SQLException;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -10,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import ua.nure.yakovenko.Task2.DbController;
 
@@ -32,27 +32,23 @@ public class HomeServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("HomeServlet doGet");
-		if(!authenticateUser()) {
-			response.sendRedirect("http://localhost:8080/Task2/authentication");
-		}
+
+		HttpSession session = request.getSession();
+		User u = (User)session.getAttribute("user");
+		System.out.println("HomeServlet USER:\n" + u);
+		
+		request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
+		if (request.getParameter("logout") != null) {
+			System.out.println("INITIATE LOGOUT");
+			request.getSession().invalidate();
+			response.sendRedirect("authentication");
+		} else {
+		
+			doGet(request, response);
+			
+		}
 	}
-	
-	private boolean authenticateUser() {
-		// TODO write user authentication
-		return false;
-	}
-	
-	private void attemptConnection() {
-		try {
-//			db.createNewUser("Ivan Bunin", "ivan_007", "ivan@gmail.com", "password");
-			db.getUserByEmail("ivan@gmail.com");
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}	
-	}
-
 }

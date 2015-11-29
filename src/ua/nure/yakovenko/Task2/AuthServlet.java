@@ -1,7 +1,6 @@
 package ua.nure.yakovenko.Task2;
 
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -13,6 +12,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 
 @WebServlet("/authentication")
@@ -32,7 +32,6 @@ public class AuthServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.getRequestDispatcher("/WEB-INF/auth.jsp").forward(request, response);
-		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -79,6 +78,12 @@ public class AuthServlet extends HttpServlet {
 				request.setAttribute("email", email);
 				doGet(request, response);
 			} else {
+				HttpSession session = request.getSession();
+				session.setAttribute("user", u);
+				System.out.println("AUTH_SERVLET\n");
+				System.out.println(request.getSession().getAttribute("user"));
+//				request.getRequestDispatcher("/").forward(request, response);
+				response.sendRedirect(request.getContextPath() + "/");
 				System.out.println("Validation OK");
 			}
 		} else if ("signup".equals(action)) {
@@ -113,16 +118,12 @@ public class AuthServlet extends HttpServlet {
 				request.setAttribute("login", login);
 				doGet(request, response);
 			} else {
-				try {
-					db.createNewUser(name, login, email, password);
-					request.setAttribute("email", email);
-					doGet(request, response);
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
+				HttpSession session = request.getSession();
+				session.setAttribute("user", u);
+				System.out.println("AUTH_SERVLET\n");
+				response.sendRedirect(request.getContextPath() + "/");
 				System.out.println("Validation OK");
 			}
-			
 			
 		} else {
 			System.out.println("UNKNOWN POST REQUEST FROM AUTH PAGE");
