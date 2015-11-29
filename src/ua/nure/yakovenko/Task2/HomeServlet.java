@@ -45,6 +45,8 @@ public class HomeServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		request.setCharacterEncoding("UTF-8");
+
 		if (request.getParameter("logout") != null) {
 			System.out.println("INITIATE LOGOUT");
 			request.getSession().invalidate();
@@ -52,8 +54,7 @@ public class HomeServlet extends HttpServlet {
 		} else {
 
 			HttpSession session = request.getSession(false);
-			
-			
+
 			Enumeration<String> params = request.getParameterNames();
 
 			while (params.hasMoreElements()) {
@@ -65,8 +66,8 @@ public class HomeServlet extends HttpServlet {
 					break;
 				}
 			}
-//			response.sendRedirect("/Task2/");
-			 doGet(request, response);
+			// response.sendRedirect("/Task2/");
+			doGet(request, response);
 		}
 
 	}

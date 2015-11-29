@@ -9,6 +9,7 @@
 <html lang="${language}">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
 <title>User Listing</title>
 <style type="text/css">
 	<%@include file="styles/main.css" %>

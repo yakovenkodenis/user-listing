@@ -8,6 +8,7 @@
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
   
+  
   <!-- Database Resource -->
   <resource-ref>
     <description>PostgreSQL data source</description>

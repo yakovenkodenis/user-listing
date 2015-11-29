@@ -15,13 +15,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.apache.log4j.Logger;
-
 @WebServlet("/authentication")
 public class AuthServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
-	private Logger Log = Logger.getLogger("Task2logger");
 
 	DbController db;
 
@@ -36,12 +32,13 @@ public class AuthServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		Log.debug("GET REQUEST AuthServlet");
 		request.getRequestDispatcher("/WEB-INF/auth.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+
+		request.setCharacterEncoding("UTF-8");
 
 		String action = request.getParameter("ACTION");
 		System.out.println("ACTION:\t" + action);
