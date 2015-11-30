@@ -45,6 +45,8 @@
 	<c:set var="role" value="<%= session.getAttribute(\"role\") %>" scope="session" />
 	<c:set var="currentUserEmail" value="<%= session.getAttribute(\"email\")%>" scope="session"/>
 	
+	<br><br><br>
+	<div class="users-list">
 	<c:choose>
 		<c:when test="${sessionScope.role == 'admin'}">
 			<c:forEach items="${users}" var="user" varStatus="loop">
@@ -79,5 +81,6 @@
 			</c:forEach>
 		</c:otherwise>
 	</c:choose>
+	</div>
 </body>
 </html>

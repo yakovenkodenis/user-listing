@@ -289,3 +289,36 @@ label.checkbox-label {
 	-ms-user-select: none;
 	user-select: none;
 }
+
+.user {
+	padding: 8px;
+}
+
+.user:hover {
+	background: #ededed;
+	cursor: pointer;
+}
+
+.user a{
+	padding: 0 5px;
+	text-align: right;
+}
+
+.user-id {
+	padding: 4px;
+}
+
+.user-name {
+	padding: 10px;
+}
+
+.user-login {
+	padding: 10px;
+	text-align: right;
+}
+
+.user-role {
+	padding: 20px;
+	font-weight: bold;
+	text-align: right;
+}
