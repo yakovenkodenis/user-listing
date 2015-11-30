@@ -1,36 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <display-name>Task2</display-name>
-  
-  <!-- Welcome Index Page -->
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
-  
-  <!-- Database Resource -->
   <resource-ref>
     <description>PostgreSQL data source</description>
     <res-ref-name>jdbc/postgres</res-ref-name>
     <res-type>javax.sql.DataSource</res-type>
     <res-auth>Container</res-auth>
   </resource-ref>
-  
-  <!-- Error Handling -->
   <error-page>
     <error-code>404</error-code>
     <location>/404.jsp</location>
   </error-page>
-  
-  <!-- Filters -->
-  	<filter-mapping>
-   		<filter-name>AuthenticationFilter</filter-name>
-   		<url-pattern>/*</url-pattern>
-	</filter-mapping>
-
-	<filter-mapping>
-	   <filter-name>AdminFilter</filter-name>
-	   <url-pattern>/create/*</url-pattern>
-	   <url-pattern>/delete/*</url-pattern>
-	</filter-mapping>
+  <filter-mapping>
+    <filter-name>AuthenticationFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>AdminFilter</filter-name>
+    <url-pattern>/create/*</url-pattern>
+    <url-pattern>/delete/*</url-pattern>
+    <url-pattern>/create/</url-pattern>
+    <url-pattern>/delete/</url-pattern>
+    <url-pattern>/create</url-pattern>
+    <url-pattern>/delete</url-pattern>
+  </filter-mapping>
 </web-app>

@@ -31,6 +31,12 @@
 				<option value="en" ${language == 'en' ? 'selected' : ''}><fmt:message key="lang.english" /></option>
 			</select>
 		</form>
+		<div class="column-nav">
+			<c:if test="${sessionScope.role == 'admin'}">
+				<a class="column-nav-link" href="${pageContext.request.contextPath}/create"><fmt:message key="users.create" /></a>
+			</c:if>
+			<a class="column-nav-link" href="${pageContext.request.contextPath}/edit"><fmt:message key="users.edit_own" /></a>
+		</div>
 	</nav>
 
 	<h5><fmt:message key="index.greeting.hello" />, ${user.login}! <fmt:message key="index.greeting.your_role" /> ${user.role}</h5>
