@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-
 @WebServlet(description = "Handles user creation", urlPatterns = { "/create/", "/create" })
 public class CreateUser extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -30,12 +29,13 @@ public class CreateUser extends HttpServlet {
 		}
 	}
 
-
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/create.jsp").forward(request,  response);
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		request.getRequestDispatcher("/WEB-INF/create.jsp").forward(request, response);
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
 		request.setCharacterEncoding("UTF-8");
 
@@ -45,8 +45,7 @@ public class CreateUser extends HttpServlet {
 		ResourceBundle bundle = ResourceBundle.getBundle("ua.nure.yakovenko.Task2.i18n.text", locale);
 
 		ArrayList<User> users = new ArrayList<>();
-		
-		
+
 		System.out.println("USER CREATION");
 
 		String email = request.getParameter("email");

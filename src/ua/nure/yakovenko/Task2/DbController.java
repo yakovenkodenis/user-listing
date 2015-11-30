@@ -167,6 +167,48 @@ public final class DbController {
 		return users;
 	}
 
+	public void updateUser(String id, User u) {
+		if (!id.matches("\\d+")) {
+			return;
+		}
+
+		Connection conn = null;
+		PreparedStatement pstmt;
+
+		try {
+			conn = ds.getConnection();
+			conn.setAutoCommit(false);
+			pstmt = conn.prepareStatement(
+					"UPDATE users SET name = ?, login = ?, email = ?, password = ?, role = ? WHERE id = ? ;");
+			pstmt.setString(1, u.getName());
+			pstmt.setString(2, u.getLogin());
+			pstmt.setString(3, u.getEmail());
+			pstmt.setString(4, u.getPassword());
+			pstmt.setString(5, u.getRole());
+			pstmt.setInt(6, Integer.parseInt(id));
+
+			System.out.println(pstmt.toString());
+
+			pstmt.executeUpdate();
+
+			conn.commit();
+			pstmt.close();
+
+			System.out.println("UPDATE USER: SUCCESS");
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
 	public void deleteUser(String id) {
 
 		if (!id.matches("\\d+")) {
@@ -204,7 +246,8 @@ public final class DbController {
 		}
 	}
 
-	public void createNewUser(String name, String login, String email, String password, String role) throws SQLException {
+	public void createNewUser(String name, String login, String email, String password, String role)
+			throws SQLException {
 		Connection conn = null;
 		PreparedStatement pstmt;
 

@@ -55,6 +55,7 @@
 					<span class="user-role">${user.role}</span>
 					<c:choose>
 						<c:when test="${sessionScope.currentUserEmail != user.email}">
+							<a href="${pageContext.request.contextPath}/edit/${user.id}"><fmt:message key="users.edit" /></a>
 							<a href="${pageContext.request.contextPath}/delete/${user.id}"><fmt:message key="users.delete" /></a>
 						</c:when>
 						<c:otherwise>
