@@ -32,6 +32,11 @@ public class DeleteUser extends HttpServlet {
 
 		String[] urlParts = request.getRequestURI().split("/");
 
+		if (urlParts.length != 4 || urlParts[3] == "") {
+			response.sendRedirect("/Task2/");
+			return;
+		}
+
 		request.setAttribute("deleteID", urlParts[3]);
 		request.setAttribute("deleteUser", db.getUserByID(urlParts[3]));
 		request.getRequestDispatcher("/WEB-INF/delete.jsp").forward(request, response);

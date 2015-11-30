@@ -111,7 +111,6 @@ public class EditUser extends HttpServlet {
 			request.setAttribute("edit_user", (User) request.getSession().getAttribute("user"));
 			userToUpdate = currentUser;
 		} else {
-			System.out.println("SHIIIIIIIIIIIIIIIIT\n:" + urlParts[3]);
 			userToUpdate = db.getUserByID(urlParts[3]);
 		}
 
@@ -125,8 +124,6 @@ public class EditUser extends HttpServlet {
 				: Security.generateSHA256(password);
 		isAdmin = isAdmin != (userToUpdate.getRole() == "admin") ? isAdmin : userToUpdate.getRole() == "admin";
 		role = isAdmin ? "admin" : "user";
-
-//		User updatedUser = new User(null, name, email, login, password, role);
 
 		ArrayList<String> result = new ArrayList<>();
 
@@ -175,9 +172,9 @@ public class EditUser extends HttpServlet {
 			System.out.println("UPDATED USER:\n" + res);
 			users = db.getUsersList();
 			HttpSession session = request.getSession(false);
-//			if (editOwnAccount) {
-//				session.setAttribute("user", res);
-//			}
+			if (editOwnAccount) {
+				session.setAttribute("user", res);
+			}
 			session.setAttribute("users", users);
 			System.out.println("EditUser_SERVLET\n");
 			response.sendRedirect(request.getContextPath() + "/");

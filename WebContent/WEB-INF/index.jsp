@@ -39,8 +39,8 @@
 		</div>
 	</nav>
 
-	<h5><fmt:message key="index.greeting.hello" />, ${user.login}! <fmt:message key="index.greeting.your_role" /> ${user.role}</h5>
-	<br>
+	<!-- <h5><fmt:message key="index.greeting.hello" />, ${user.login}! <fmt:message key="index.greeting.your_role" /> ${user.role}</h5>
+	<br> -->
 
 	<c:set var="role" value="<%= session.getAttribute(\"role\") %>" scope="session" />
 	<c:set var="currentUserEmail" value="<%= session.getAttribute(\"email\")%>" scope="session"/>

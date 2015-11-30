@@ -54,8 +54,10 @@
 		<input type="text" name="editEmail" value="${editEmail}" />
 		<label for="password"><fmt:message key="users.create.password" /></label>
 		<input type="password" name="editPassword" />
-		<input type="checkbox" name="isAdmin" class="checkbox" id="checkbox" ${role == "admin" ? "checked" : ""} />
-		<label for="checkbox" class="checkbox-label"><fmt:message key="users.create.is_admin"/></label><br>
+		<c:if test="${role == 'admin'}">
+			<input type="checkbox" name="isAdmin" class="checkbox" id="checkbox" checked />
+			<label for="checkbox" class="checkbox-label"><fmt:message key="users.create.is_admin"/></label><br>
+		</c:if>
 		<input type="text" name="language" class="hidden" value="${language}" />
 		<fmt:message key="users.submit_edit" var="editValue" />
 		<input type="submit" value="${editValue}" />
