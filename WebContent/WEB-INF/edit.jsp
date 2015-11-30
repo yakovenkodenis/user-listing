@@ -42,19 +42,19 @@
 		</c:otherwise>
 	</c:choose>
 
-	<form method="post" action="create" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded">
+	<form method="post" action="/Task2/edit/${editID}" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded">
 		<c:forEach items="${errorEditMessage}" var="message">
 			<div class="error-message">${message}</div>
 		</c:forEach>
 		<label for="name"><fmt:message key="users.create.name" /></label>
-		<input type="text" name="name" value="${editName}" autocomplete="name" />
+		<input type="text" name="editName" value="${editName}" autocomplete="name" />
 		<label for="login"><fmt:message key="users.create.login" /></label>
-		<input type="text" name="login" value="${editLogin}" />
+		<input type="text" name="editLogin" value="${editLogin}" />
 		<label for="email"><fmt:message key="users.create.email"/></label>
-		<input type="text" name="email" value="${editEmail}" />
+		<input type="text" name="editEmail" value="${editEmail}" />
 		<label for="password"><fmt:message key="users.create.password" /></label>
-		<input type="password" name="password" />
-		<input type="checkbox" name="isAdmin" class="checkbox" id="checkbox" />
+		<input type="password" name="editPassword" />
+		<input type="checkbox" name="isAdmin" class="checkbox" id="checkbox" ${role == "admin" ? "checked" : ""} />
 		<label for="checkbox" class="checkbox-label"><fmt:message key="users.create.is_admin"/></label><br>
 		<input type="text" name="language" class="hidden" value="${language}" />
 		<fmt:message key="users.submit_edit" var="editValue" />
