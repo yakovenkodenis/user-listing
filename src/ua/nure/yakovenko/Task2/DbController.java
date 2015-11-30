@@ -131,7 +131,7 @@ public final class DbController {
 
 	public void createNewUser(User u) {
 		try {
-			createNewUser(u.name, u.login, u.email, u.password);
+			createNewUser(u.getName(), u.getLogin(), u.getEmail(), u.getPassword(), u.getRole());
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -204,7 +204,7 @@ public final class DbController {
 		}
 	}
 
-	public void createNewUser(String name, String login, String email, String password) throws SQLException {
+	public void createNewUser(String name, String login, String email, String password, String role) throws SQLException {
 		Connection conn = null;
 		PreparedStatement pstmt;
 
@@ -217,7 +217,7 @@ public final class DbController {
 			pstmt.setString(2, login);
 			pstmt.setString(3, email);
 			pstmt.setString(4, Security.generateSHA256(password));
-			pstmt.setString(5, "user");
+			pstmt.setString(5, role);
 
 			System.out.println(pstmt.toString());
 
