@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
+
 import ua.nure.yakovenko.Task2.DbController;
 
 @WebServlet(description = "The main servlet of the app. Should redirect unauthenticated users to to AuthServlet.", urlPatterns = {
@@ -19,6 +21,8 @@ import ua.nure.yakovenko.Task2.DbController;
 public class HomeServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
+	
+	static final Logger LOG = Logger.getLogger(HomeServlet.class);
 
 	DbController db = null;
 
@@ -33,12 +37,15 @@ public class HomeServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("HomeServlet doGet");
+//		System.out.println("HomeServlet doGet");
 
 		HttpSession session = request.getSession();
 		User u = (User) session.getAttribute("user");
-		System.out.println("HomeServlet USER:\n" + u);
+//		System.out.println("HomeServlet USER:\n" + u);
 
+		LOG.debug("HomeServlet doGet");
+		LOG.info("HomeServlet USER:\n" + u);
+		
 		request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
 	}
 
