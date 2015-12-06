@@ -22,3 +22,131 @@ Email: admin@admin.com
 Login: main_admin
 Role: admin
 
+INFO    2015-12-06 19:04:20,250 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: null
+Name: James Gosling
+Email: james.gosling@example.com
+Login: james_gosling
+Role: user
+
+INFO    2015-12-06 19:04:20,342 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: null
+Name: null
+Email: null
+Login: null
+Role: null
+
+INFO    2015-12-06 19:04:56,855 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: null
+Name: null
+Email: james.gosling@example.com
+Login: null
+Role: null
+
+INFO    2015-12-06 19:04:56,858 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 22
+Name: James Gosling
+Email: james.gosling@example.com
+Login: james_gosling
+Role: user
+
+INFO    2015-12-06 19:04:56,860 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 22
+Name: James Gosling
+Email: james.gosling@example.com
+Login: james_gosling
+Role: user
+
+INFO    2015-12-06 19:04:56,861 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 6
+Name: Denis Yakovenko
+Email: yakovenko.denis.a@gmail.com
+Login: yakovenkodenis
+Role: user
+
+INFO    2015-12-06 19:04:56,861 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 13
+Name: Sergei Yesenin
+Email: yesenin@gmail.com
+Login: yesenin
+Role: user
+
+INFO    2015-12-06 19:04:56,861 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 15
+Name: Ivan Petrov
+Email: ivan@petrov.com
+Login: ivan@petrov.com
+Role: user
+
+INFO    2015-12-06 19:04:56,861 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 17
+Name: Charles Perrault
+Email: charles@perrault.com
+Login: charles_p28
+Role: user
+
+INFO    2015-12-06 19:04:56,861 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+INFO    2015-12-06 19:04:56,861 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 18
+Name: Test Admin
+Email: admin@test.com
+Login: test_admin
+Role: admin
+
+INFO    2015-12-06 19:04:56,862 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 19
+Name: Test Name2
+Email: test@test.com
+Login: test@test.com
+Role: user
+
+INFO    2015-12-06 19:04:56,862 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 20
+Name: fgnxcgn
+Email: admin@tesgsdgt.com
+Login: sadgsadg
+Role: admin
+
+INFO    2015-12-06 19:04:56,862 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 16
+Name: Mark Twain
+Email: mark_twain@gmail.com
+Login: mark_twain@gmail.com
+Role: user
+
+INFO    2015-12-06 19:04:56,862 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 21
+Name: John Doe
+Email: john.doe@example.com
+Login: john_doe
+Role: user
+
+INFO    2015-12-06 19:04:56,862 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.User  - NEW USER CREATED.
+Id: 22
+Name: James Gosling
+Email: james.gosling@example.com
+Login: james_gosling
+Role: user
+
+DEBUG   2015-12-06 19:04:56,869 [http-nio-8080-exec-5] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-06 19:04:56,869 [http-nio-8080-exec-5] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 22
+Name: James Gosling
+Email: james.gosling@example.com
+Login: james_gosling
+Role: user
+
+DEBUG   2015-12-06 19:05:05,892 [http-nio-8080-exec-6] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-06 19:05:05,893 [http-nio-8080-exec-6] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 22
+Name: James Gosling
+Email: james.gosling@example.com
+Login: james_gosling
+Role: user
+

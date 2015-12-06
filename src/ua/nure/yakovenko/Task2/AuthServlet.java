@@ -15,10 +15,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
+
 @WebServlet("/authentication")
 public class AuthServlet extends HttpServlet {
+	
 	private static final long serialVersionUID = 1L;
-
+	
+	static final Logger LOG = Logger.getLogger(AuthServlet.class);
+	
 	private DbController db;
 
 	public AuthServlet() {
@@ -90,6 +95,7 @@ public class AuthServlet extends HttpServlet {
 					users = db.getUsersList();
 				} catch (SQLException e) {
 					e.printStackTrace();
+					LOG.error(e.getMessage());
 				}
 				session.setAttribute("user", u);
 				session.setAttribute("role", u.getRole());

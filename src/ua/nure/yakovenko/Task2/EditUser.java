@@ -15,9 +15,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
+
 @WebServlet(description = "Handles user editing.", urlPatterns = { "/edit", "/edit/", "/edit/*" })
 public class EditUser extends HttpServlet {
+	
 	private static final long serialVersionUID = 1L;
+	
+	static final Logger LOG = Logger.getLogger(EditUser.class);
 
 	private DbController db;
 
@@ -27,6 +32,7 @@ public class EditUser extends HttpServlet {
 			db = new DbController(new InitialContext());
 		} catch (NamingException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		}
 	}
 
@@ -135,6 +141,7 @@ public class EditUser extends HttpServlet {
 		} catch (SQLException e) {
 			userExists = new User(null, null, null, null, null, null);
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		}
 		System.out.println(userExists);
 

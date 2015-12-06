@@ -12,8 +12,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
+
 @WebFilter(filterName = "AdminFilter")
 public class AdminFilter implements Filter {
+	
+	static final Logger LOG = Logger.getLogger(AdminFilter.class);
 
 	public void destroy() {
 	}
@@ -24,7 +28,7 @@ public class AdminFilter implements Filter {
 		HttpServletResponse res = (HttpServletResponse) response;
 		String path = req.getRequestURI();
 
-		System.out.println("ADMIN FILTER PATH\n" + path);
+		LOG.info("ADMIN FILTER PATH\n" + path);
 
 		HttpSession session = req.getSession(false);
 		User u = null;

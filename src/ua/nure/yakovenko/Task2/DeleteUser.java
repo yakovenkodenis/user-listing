@@ -10,9 +10,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
+
 @WebServlet(description = "Handles user deletion.", urlPatterns = { "/delete/*" })
 public class DeleteUser extends HttpServlet {
+	
 	private static final long serialVersionUID = 1L;
+	
+	static final Logger LOG = Logger.getLogger(DeleteUser.class);
 
 	private DbController db;
 
@@ -22,6 +27,7 @@ public class DeleteUser extends HttpServlet {
 			db = new DbController(new InitialContext());
 		} catch (NamingException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		}
 	}
 

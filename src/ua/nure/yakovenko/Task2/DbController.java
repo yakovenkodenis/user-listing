@@ -12,6 +12,7 @@ import javax.naming.Context;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
+import org.apache.log4j.Logger;
 import org.postgresql.util.PSQLException;
 
 import ua.nure.yakovenko.Task2.Security;
@@ -19,6 +20,8 @@ import ua.nure.yakovenko.Task2.Security;
 public final class DbController {
 
 	private Validator validator;
+	
+	static final Logger LOG = Logger.getLogger(DbController.class);
 
 	@Resource(name = "java:comp/env/jdbc/java_lab2")
 	private DataSource ds;
@@ -28,6 +31,7 @@ public final class DbController {
 			ds = (DataSource) ctx.lookup("java:comp/env/jdbc/java_lab2");
 		} catch (NamingException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		}
 	}
 
@@ -77,6 +81,7 @@ public final class DbController {
 					conn.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
+					LOG.error(e.getMessage());
 				}
 			}
 		}
@@ -134,6 +139,7 @@ public final class DbController {
 			createNewUser(u.getName(), u.getLogin(), u.getEmail(), u.getPassword(), u.getRole());
 		} catch (SQLException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		}
 	}
 
@@ -162,6 +168,7 @@ public final class DbController {
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		}
 
 		return users;
@@ -198,12 +205,14 @@ public final class DbController {
 
 		} catch (SQLException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		} finally {
 			if (conn != null) {
 				try {
 					conn.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
+					LOG.error(e.getMessage());
 				}
 			}
 		}
@@ -235,12 +244,14 @@ public final class DbController {
 
 		} catch (SQLException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		} finally {
 			if (conn != null) {
 				try {
 					conn.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
+					LOG.error(e.getMessage());
 				}
 			}
 		}
@@ -297,6 +308,7 @@ public final class DbController {
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		}
 		return null;
 	}

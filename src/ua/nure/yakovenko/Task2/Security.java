@@ -4,7 +4,11 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+import org.apache.log4j.Logger;
+
 public final class Security {
+	
+	static final Logger LOG = Logger.getLogger(Security.class);
 
 	public static final String generateSHA256(String str) {
 		try {
@@ -16,6 +20,7 @@ public final class Security {
 			return String.format("%064x", new java.math.BigInteger(1, digest));
 		} catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
 			e.printStackTrace();
+			LOG.error(e.getMessage());
 		}
 		return null;
 	}

@@ -2,9 +2,13 @@ package ua.nure.yakovenko.Task2;
 
 import java.io.Serializable;
 
+import org.apache.log4j.Logger;
+
 public class User implements Serializable {
 
 	private static final long serialVersionUID = -6825807152638963673L;
+	
+	static final Logger LOG = Logger.getLogger(User.class);
 
 	String id;
 	String role;
