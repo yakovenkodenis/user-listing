@@ -31,7 +31,7 @@ public class AuthenticationFilter implements Filter {
 
 		if (path.contains("/authentication")) {
 			if (u != null) {
-				res.sendRedirect("/Task2/");
+				res.sendRedirect(request.getServletContext().getContextPath() + "/");
 			} else {
 				chain.doFilter(request, response);
 			}

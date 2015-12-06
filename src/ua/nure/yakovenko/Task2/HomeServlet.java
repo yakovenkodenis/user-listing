@@ -65,7 +65,6 @@ public class HomeServlet extends HttpServlet {
 					break;
 				}
 			}
-			// response.sendRedirect("/Task2/");
 			doGet(request, response);
 		}
 

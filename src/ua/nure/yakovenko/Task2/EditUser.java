@@ -47,7 +47,7 @@ public class EditUser extends HttpServlet {
 			editOwnAccount = true;
 			request.setAttribute("editID", currentUser.getId());
 		} else {
-			response.sendRedirect("/Task2/");
+			response.sendRedirect(request.getContextPath() + "/");
 		}
 
 		if (editOwnAccount) {
@@ -84,7 +84,7 @@ public class EditUser extends HttpServlet {
 			editOwnAccount = true;
 			request.setAttribute("editID", currentUser.getId());
 		} else {
-			response.sendRedirect("/Task2/");
+			response.sendRedirect(request.getContextPath() + "/");
 		}
 
 		String lang = request.getParameter("language");

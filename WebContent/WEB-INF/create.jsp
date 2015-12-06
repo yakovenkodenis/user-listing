@@ -16,11 +16,11 @@
 </style>
 </head>
 <body>
-	<h1 class="text-center"><a href="/Task2" class="disable-link">User listing</a></h1>
+	<h1 class="text-center"><a href="${pageContext.request.contextPath}/" class="disable-link">User listing</a></h1>
 	
 	<nav id="top-nav">
 	
-		<form method="post" action="/Task2/" class="logout">
+		<form method="post" action="${pageContext.request.contextPath}/" class="logout">
 			<fmt:message key="authentication.logout" var="logout" />
 			<input type="submit" name="logout" value="${logout}" />
 		</form>

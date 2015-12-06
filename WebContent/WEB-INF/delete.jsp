@@ -19,11 +19,11 @@
 </head>
 <body>
 
-	<h1 class="text-center"><a href="/Task2" class="disable-link">User listing</a></h1>
+	<h1 class="text-center"><a href="${pageContext.request.contextPath}/" class="disable-link">User listing</a></h1>
 	
 	<nav id="top-nav">
 	
-		<form method="post" action="/Task2/" class="logout">
+		<form method="post" action="${pageContext.request.contextPath}/" class="logout">
 			<fmt:message key="authentication.logout" var="logout" />
 			<input type="submit" name="logout" value="${logout}" />
 		</form>
@@ -42,7 +42,7 @@
 		<p><span><fmt:message key="users.delete.login" />: ${deleteUser.login}</span></p>
 		<p><span><fmt:message key="users.delete.email" />: ${deleteUser.email}</span></p>
 	</div>
-	<form action="/Task2/delete/${deleteUser.id}" method="post">
+	<form action="${pageContext.request.contextPath}/delete/${deleteUser.id}" method="post">
 		<fmt:message key="users.delete.sure" var="confirm" />
 		<input type="submit" name="delete" value="${confirm}" />
 	</form>

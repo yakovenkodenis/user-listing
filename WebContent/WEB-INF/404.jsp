@@ -17,7 +17,8 @@
 <body>
 	<div class="container">
 		<h1>404 Not Found. We're sorry</h1>
-		<a href="/">Home Page</a>
+		<br>
+		<a href="${pageContext.request.contextPath}/">Home Page</a>
 	</div>
 	
 </body>

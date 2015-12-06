@@ -31,9 +31,8 @@ public class DeleteUser extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 
 		String[] urlParts = request.getRequestURI().split("/");
-
 		if (urlParts.length != 4 || urlParts[3] == "") {
-			response.sendRedirect("/Task2/");
+			response.sendRedirect(request.getContextPath() + "/");
 			return;
 		}
 
@@ -48,14 +47,14 @@ public class DeleteUser extends HttpServlet {
 
 		String[] urlParts = request.getRequestURI().split("/");
 		if (urlParts.length != 4) {
-			response.sendRedirect("/Task2/");
+			response.sendRedirect(request.getContextPath() + "/");
 		} else {
 			if (request.getParameter("delete") != null) {
 				String id = urlParts[3];
 				db.deleteUser(id);
 				request.getSession().setAttribute("users", db.getUsersList());
 			}
-			response.sendRedirect("/Task2/");
+			response.sendRedirect(request.getContextPath() + "/");
 		}
 	}
 

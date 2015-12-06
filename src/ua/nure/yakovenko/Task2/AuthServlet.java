@@ -134,15 +134,6 @@ public class AuthServlet extends HttpServlet {
 			} else {
 				db.createNewUser(u);
 				response.sendRedirect("authentication");
-//				users = db.getUsersList();
-//				HttpSession session = request.getSession();
-//				session.setAttribute("user", u);
-//				session.setAttribute("role", u.getRole());
-//				session.setAttribute("email", u.getEmail());
-//				session.setAttribute("users", users);
-//				System.out.println("AUTH_SERVLET\n");
-//				response.sendRedirect(request.getContextPath() + "/");
-//				System.out.println("Validation OK");
 			}
 
 		} else {

@@ -13,7 +13,7 @@
   </resource-ref>
   <error-page>
     <error-code>404</error-code>
-    <location>/404.jsp</location>
+    <location>/WEB-INF/404.jsp</location>
   </error-page>
   <filter-mapping>
     <filter-name>AuthenticationFilter</filter-name>

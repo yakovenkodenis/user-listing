@@ -36,7 +36,7 @@ public class AdminFilter implements Filter {
 			if (u.getRole().equals("admin")) {
 				chain.doFilter(request, response);
 			} else {
-				res.sendRedirect("/Task2/");
+				res.sendRedirect(request.getServletContext().getContextPath() + "/");
 			}
 		} else {
 			res.sendRedirect("authentication");
