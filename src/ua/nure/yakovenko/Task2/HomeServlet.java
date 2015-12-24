@@ -17,7 +17,7 @@ import org.apache.log4j.Logger;
 import ua.nure.yakovenko.Task2.DbController;
 
 @WebServlet(description = "The main servlet of the app. Should redirect unauthenticated users to to AuthServlet.", urlPatterns = {
-		"/" })
+		"/main" })
 public class HomeServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
@@ -46,7 +46,7 @@ public class HomeServlet extends HttpServlet {
 		LOG.debug("HomeServlet doGet");
 		LOG.info("HomeServlet USER:\n" + u);
 		
-		request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/index.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

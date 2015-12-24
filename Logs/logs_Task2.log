@@ -150,3 +150,2267 @@ Email: james.gosling@example.com
 Login: james_gosling
 Role: user
 
+DEBUG   2015-12-07 11:40:08,970 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:40:08,971 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:46:26,465 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:46:26,465 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:46:27,322 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:46:27,323 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:47:53,520 [http-nio-8080-exec-6] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:47:53,521 [http-nio-8080-exec-6] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:48:04,575 [http-nio-8080-exec-7] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:48:04,575 [http-nio-8080-exec-7] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:48:07,413 [http-nio-8080-exec-8] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:48:07,414 [http-nio-8080-exec-8] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:49:06,271 [http-nio-8080-exec-9] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:49:06,272 [http-nio-8080-exec-9] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:49:06,580 [http-nio-8080-exec-9] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:49:06,580 [http-nio-8080-exec-9] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:49:47,768 [http-nio-8080-exec-10] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:49:47,769 [http-nio-8080-exec-10] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:49:47,772 [http-nio-8080-exec-10] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:49:47,773 [http-nio-8080-exec-10] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:52:42,821 [http-nio-8080-exec-1] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:52:42,821 [http-nio-8080-exec-1] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:52:42,979 [http-nio-8080-exec-1] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:52:42,979 [http-nio-8080-exec-1] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:52:44,270 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:52:44,270 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:52:44,271 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:52:44,271 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:52:56,138 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:52:56,139 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:52:56,216 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:52:56,216 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:52:57,495 [http-nio-8080-exec-3] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:52:57,496 [http-nio-8080-exec-3] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:52:57,497 [http-nio-8080-exec-3] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:52:57,497 [http-nio-8080-exec-3] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,622 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,623 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,641 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,641 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,641 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,641 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,642 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,642 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,643 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,643 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,643 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,644 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,644 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,644 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,645 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,645 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,646 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,646 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,647 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,647 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,648 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,648 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,649 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,649 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,650 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,650 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,651 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,651 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,651 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,651 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,653 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,653 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,653 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,654 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,654 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,654 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,655 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,656 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,656 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,656 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,657 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,657 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,658 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,658 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,659 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,659 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,660 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,660 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,660 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,660 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,661 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,661 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,662 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,662 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,663 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,663 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,664 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,664 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,665 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,665 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,665 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,666 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,666 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,667 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,667 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,668 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,669 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,669 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,670 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,670 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,671 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,671 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,672 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,672 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,673 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,673 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,674 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,674 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,675 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,675 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,676 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,676 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,676 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,676 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,677 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,677 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,678 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,678 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,679 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,679 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,680 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,680 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,681 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,681 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,681 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,681 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,699 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,700 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,703 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,703 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,704 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,704 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,705 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,705 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,705 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,705 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,706 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,706 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,708 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,708 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,710 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,710 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,711 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,711 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,712 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,712 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,713 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,713 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,714 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,714 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,715 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,715 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,715 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,715 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,716 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,716 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,716 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,717 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,717 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,717 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,718 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,718 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,718 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,718 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,719 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,719 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,719 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,719 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,720 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,720 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,721 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,721 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,721 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,721 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,722 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,722 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,723 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,723 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,724 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,724 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,724 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,724 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,725 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,725 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,725 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,725 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,725 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,726 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,726 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,726 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,726 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,727 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,727 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,727 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,727 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,727 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,728 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,728 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,728 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,728 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,729 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,729 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,729 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,729 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,730 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,730 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,730 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,730 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,731 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,731 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,731 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,731 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,732 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,732 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,733 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,733 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,733 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,734 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,734 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,734 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,735 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,735 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,735 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,735 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,736 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,736 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,736 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,737 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,737 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,737 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,738 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,738 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,739 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,739 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,739 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,739 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,740 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,740 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,741 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,741 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,741 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,741 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,742 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,742 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,742 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,742 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,743 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,743 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,743 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,743 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,744 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,744 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,744 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,744 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,744 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,745 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,745 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,745 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,745 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,745 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,746 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,746 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,746 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,746 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,747 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,747 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,747 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,747 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,748 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,748 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,748 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,748 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,749 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,749 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,749 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,749 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,750 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,750 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,750 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,750 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,750 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,750 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,751 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,751 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,751 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,751 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,752 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,752 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,752 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,753 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,753 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,753 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,754 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,754 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,754 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,754 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,755 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,755 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,755 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,755 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,755 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,755 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,756 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,756 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,756 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,756 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,757 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,757 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,757 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,757 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,758 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,758 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,759 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,759 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,760 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,760 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,760 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,760 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,761 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,761 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,762 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,762 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,762 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,762 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,763 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,763 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,763 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,764 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,764 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,764 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,765 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,765 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,765 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,765 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,766 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,766 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,766 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,766 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,766 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,767 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,767 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,767 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,767 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,767 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,768 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,768 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,769 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,769 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,769 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,769 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,770 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,770 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,771 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,771 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,771 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,771 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,772 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,772 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,772 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,772 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,773 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,773 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,773 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,773 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,774 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,774 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,774 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,774 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,775 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,775 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,775 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,775 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,776 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,776 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,776 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,776 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,777 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,777 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,777 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,777 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,778 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,778 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,778 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,778 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,779 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,779 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,779 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,779 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,779 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,780 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,780 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,780 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,780 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,781 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,781 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,781 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,782 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,782 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,782 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,782 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,782 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,782 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,783 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,783 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,783 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,783 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,784 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,784 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,784 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,784 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,785 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,785 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,785 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,785 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,786 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,786 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,786 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,786 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,787 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,787 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,787 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,787 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,787 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,788 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,788 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,788 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,788 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,788 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,789 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,789 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,789 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,789 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,790 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,790 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,790 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,790 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,791 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,791 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,791 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,791 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,792 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,792 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,792 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,792 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,793 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,793 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,793 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,793 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,794 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,794 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,794 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,794 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,794 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,795 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,795 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,795 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,796 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,796 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,797 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,797 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,798 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,798 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,798 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,798 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,799 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,799 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,800 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,800 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,800 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,800 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,801 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,801 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,801 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,801 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,802 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,802 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,802 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,803 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,803 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,803 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,803 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,804 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,804 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,804 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,804 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,805 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,805 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,805 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,805 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,805 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,806 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,806 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,806 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,806 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,807 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,807 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,807 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,807 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,808 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,808 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,808 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,808 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,809 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,809 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,809 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,809 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,810 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,810 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,810 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,810 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,811 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,811 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,811 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,811 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,811 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,812 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,812 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,812 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,812 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,813 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,813 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,813 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,813 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,814 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,814 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,814 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,814 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,815 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,815 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,815 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,815 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,816 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,816 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,816 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,816 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,817 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,817 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,817 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,817 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,817 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,818 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,818 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,819 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,819 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,819 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,819 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,820 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,820 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,820 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,820 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,821 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,821 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:54:48,821 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:54:48,821 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:56:33,170 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:56:33,171 [http-nio-8080-exec-2] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:58:10,702 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:58:10,703 [http-nio-8080-exec-4] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+
+DEBUG   2015-12-07 11:58:22,724 [http-nio-8080-exec-5] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet doGet
+INFO    2015-12-07 11:58:22,724 [http-nio-8080-exec-5] ua.nure.yakovenko.Task2.HomeServlet  - HomeServlet USER:
+Id: 8
+Name: Denis Yakovenko
+Email: admin@admin.com
+Login: main_admin
+Role: admin
+

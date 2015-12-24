@@ -7,14 +7,9 @@
 <fmt:setBundle basename="ua.nure.yakovenko.Task2.i18n.text"/>
 <!DOCTYPE html>
 <html lang="${language}">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="UTF-8">
-<title>User Listing</title>
-<style type="text/css">
-	<%@include file="styles/main.css" %>
-</style>
-</head>
+<jsp:include page="/WEB-INF/head.jsp">
+	<jsp:param value="User Listing" name="title"/>
+</jsp:include>
 <body>
 	<h1 class="text-center"><a href="${pageContext.request.contextPath}/" class="disable-link">User listing</a></h1>
 	
